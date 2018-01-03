@@ -15,7 +15,6 @@ bot.on("messageCreate", (msg) => {
     switch (true){
         case /^!replay[ ]{1}[0-9]+$/.test(message):
             let matchId = message.split(" ")[1];
-            console.log("matchId: " + matchId);
             execute(getReplayUrlCommand, msg, matchId);
             break;
         default:
