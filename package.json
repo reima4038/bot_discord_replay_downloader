@@ -1,0 +1,34 @@
+{
+  "name": "008_bot_discord_replay_downloader",
+  "version": "1.0.0",
+  "description": "the bot is for downloading dota2 replay files.",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "node ./build/bundle.js",
+    "start-web": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reima4038/bot_discord_replay_downloader.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "dota2"
+  ],
+  "author": "reima4038",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reima4038/bot_discord_replay_downloader/issues"
+  },
+  "homepage": "https://github.com/reima4038/bot_discord_replay_downloader#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
