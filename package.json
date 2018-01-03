@@ -4,9 +4,7 @@
   "description": "the bot is for downloading dota2 replay files.",
   "main": "main.js",
   "scripts": {
-    "build": "webpack",
-    "start": "node ./build/bundle.js",
-    "start-web": "webpack-dev-server",
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,11 +22,9 @@
     "url": "https://github.com/reima4038/bot_discord_replay_downloader/issues"
   },
   "homepage": "https://github.com/reima4038/bot_discord_replay_downloader#readme",
-  "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.1",
-    "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.9.7"
+  "dependencies": {
+    "config": "^1.29.0",
+    "eris": "^0.8.2",
+    "node-rest-client": "^3.1.0"
   }
 }
